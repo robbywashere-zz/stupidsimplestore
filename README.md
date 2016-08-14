@@ -71,7 +71,7 @@ _Some things to note:_
 
 _Enhancements:_
 
-Along with the idea of using this as an abstracted storage adapter you may extend the Query class to more carefully model how your ORM or database model might look like
+Along with the idea of using this as an abstracted storage adapter you may extend the Query class to more carefully model how your ORM or database model might look like. Then when you are ready to swap it out with a real ORM or database adapter you can simple use this classes and it's methods as a layer of abstraction.
 
 ```
 let sss = require('./index.js')
